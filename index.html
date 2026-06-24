@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gopala Krishna - Resume</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #334155;
+            background-color: #ffffff;
+            padding: 40px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 20px;
+        }
+        h1 {
+            font-size: 28px;
+            color: #1e293b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            font-size: 13px;
+            color: #64748b;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .contact-info a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .contact-info span::after {
+            content: " |";
+            color: #cbd5e1;
+            margin-left: 10px;
+        }
+        .contact-info span:last-child::after {
+            content: "";
+        }
+        .section-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #0f172a;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-left: 4px solid #2563eb;
+            padding-left: 10px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            background-color: #f8fafc;
+            padding-top: 6px;
+            padding-bottom: 6px;
+        }
+        .job-entry {
+            margin-bottom: 25px;
+        }
+        .job-header, .edu-header {
+            display: flex;
+            justify-content: space-between;
+            font-weight: 700;
+            color: #1e293b;
+            font-size: 14.5px;
+            margin-bottom: 4px;
+        }
+        .job-subheader {
+            display: flex;
+            justify-content: space-between;
+            font-style: italic;
+            color: #475569;
+            font-size: 13.5px;
+            margin-bottom: 8px;
+        }
+        .job-skills {
+            font-size: 13px;
+            background-color: #eff6ff;
+            color: #1e40af;
+            padding: 4px 8px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            display: inline-block;
+            font-weight: 500;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+            margin-bottom: 10px;
+        }
+        li {
+            margin-bottom: 6px;
+            text-align: justify;
+        }
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+            gap: 8px;
+        }
+        .skill-group {
+            font-size: 13.5px;
+            margin-bottom: 6px;
+        }
+        .skill-label {
+            font-weight: 700;
+            color: #1e293b;
+        }
+        .project-item, .recognition-item, .course-item {
+            margin-bottom: 10px;
+            font-size: 13.5px;
+        }
+        .project-name, .recognition-name, .course-name {
+            font-weight: 700;
+            color: #1e293b;
+        }
+        @media print {
+            body {
+                padding: 20px;
+                font-size: 12px;
+            }
+            .section-title {
+                margin-top: 20px;
+                margin-bottom: 10px;
+            }
+            .job-entry {
+                margin-bottom: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gopala Krishna</h1>
+        <div class="contact-info">
+            <span>+91-9886868349</span>
+            <span><a href="mailto:techwith.gopala@gmail.com">techwith.gopala@gmail.com</a></span>
+            <span><a href="#">LinkedIn</a></span>
+            <span><a href="#">GitHub</a></span>
+            <span><a href="#">LeetCode</a></span>
+            <span>Bengaluru, India</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="section-title">Work Experience</div>
+
+        <!-- Visa India -->
+        <div class="job-entry">
+            <div class="job-header">
+                <span>Visa India</span>
+                <span>Apr 2025 - Present</span>
+            </div>
+            <div class="job-subheader">
+                <span>Senior Consultant / Senior Manager</span>
+                <span>Bengaluru, India</span>
+            </div>
+            <div class="job-skills">
+                <strong>Skills:</strong> Agentic AI, Python, MCP, Spring Boot, JDK 17, Angular 20, MySQL
+            </div>
+            <ul>
+                <li>Led and architected migration of fat monolith application to microservices which improved operational efficiency with respect to CI/CD workflow and container orchestration.</li>
+                <li>Championed to adopt Cline an AI agent tool, GitHub Copilot which improved the coding efficiency and productivity by 50% across all the products.</li>
+                <li>Led and developed an MCP server for the backend GET APIs to help business team converse with Billing rules data via agentic tools.</li>
+                <li>Engineered a production-grade 'ClickHouse Analytics Agent' that translates natural language business questions into optimized, highly complex ClickHouse SQL queries.</li>
+                <li>Pioneered billing rule modernization effort which was well received by the product owners as it improved business efficiency to bill the clients on time which improved client billing revenue by 25%.</li>
+                <li>Led weekly SOS meetings, managed, co-ordinated and collaborated Account Level Management (ALM) project that spanned multiple global teams, balanced resources and task assignments, worked with product management and engineering team to determine the MVP release scope.</li>
+                <li>Strong engineering chops combined with hands-on and proven management skills gained by successfully building engineering teams, hiring, empowering, mentoring and retaining talent, managing multiple projects, designing and delivering innovative products.</li>
+                <li>Led ALM (Account Lifecycle Management) Platform team which manages the full life cycle of cardholder accounts, specializing in optimizing card economics, tier progression, and retention strategies.</li>
+            </ul>
+        </div>
+
+        <!-- Candescent -->
+        <div class="job-entry">
+            <div class="job-header">
+                <span>Candescent (Formerly NCR Corporation)</span>
+                <span>Sep 2020 - Apr 2025</span>
+            </div>
+            <div class="job-subheader">
+                <span>Software Engineer 4 / Lead Engineer</span>
+                <span>Bengaluru, India</span>
+            </div>
+            <div class="job-skills">
+                <strong>Skills:</strong> Spring Boot, JDK 17, React, Postgres, Redis
+            </div>
+            <ul>
+                <li>Spearheaded the architecture of a microservices-based banking application which got deployed to GKE with an increased throughput by 25%.</li>
+                <li>Implemented dynamic front end react components with reusable code and added form preview functionality which increased customer satisfaction score by 25%.</li>
+                <li>Mentored 8+ developers across three agile teams, improving code quality and reducing defects by 30%.</li>
+            </ul>
+        </div>
+
+        <!-- Lowe's India -->
+        <div class="job-entry">
+            <div class="job-header">
+                <span>Lowe's India</span>
+                <span>Mar 2015 - Sep 2020</span>
+            </div>
+            <div class="job-subheader">
+                <span>Senior Software Engineer</span>
+                <span>Bengaluru, India</span>
+            </div>
+            <div class="job-skills">
+                <strong>Skills:</strong> Spring Boot, Google Cloud Spanner, JDK 1.8, Angular JS, DB2
+            </div>
+            <ul>
+                <li>Designed and developed a rotational space management product for high-visibility retail zones (end caps, front-of-store tables), driving a 15% increase in sales-per-square-foot for the merchandising group.</li>
+                <li>Spearheaded the architecture and development of custom rule engine which helped organization not to incur margin loss for promotional items across all selling channels which improved sales margin by 10%.</li>
+                <li>Enforced an innovative approach to reap 40% more revenue for each category because of better planning and communication with downstream systems - supply chain, logistics.</li>
+                <li>Created reusable Java modules for authentication, logging, and validation services and facilitated architectural review boards, technology selection processes.</li>
+            </ul>
+        </div>
+
+        <!-- JDA Software -->
+        <div class="job-entry">
+            <div class="job-header">
+                <span>JDA Software (Now Blue Yonder)</span>
+                <span>Aug 2010 - Mar 2015</span>
+            </div>
+            <div class="job-subheader">
+                <span>Technical Consultant Intermediate</span>
+                <span>Bengaluru, India</span>
+            </div>
+            <div class="job-skills">
+                <strong>Skills:</strong> JSP, Servlets, Java 1.5, Oracle
+            </div>
+            <ul>
+                <li>Spearheaded customer preferences management which helped to send accurate marketing emails which in turn increased the store foot print and inquiries by 25%.</li>
+                <li>Engineered return order management and nearby stores modules which enabled customers to buy/return products seamlessly from any channels.</li>
+            </ul>
+        </div>
+
+        <!-- Cognizant -->
+        <div class="job-entry">
+            <div class="job-header">
+                <span>Cognizant Technology Solutions</span>
+                <span>Feb 2009 - Aug 2010</span>
+            </div>
+            <div class="job-subheader">
+                <span>Programmer Analyst</span>
+                <span>Bengaluru, India</span>
+            </div>
+            <div class="job-skills">
+                <strong>Skills:</strong> JSP, Servlets, Java 1.5, DB2
+            </div>
+            <ul>
+                <li>Engineered features to add customer preference attributes which helped Fujitsu POS systems to capture more details about customer and in turn assisted retailers to do targeted marketing to improve sales, store footprints.</li>
+                <li>Participated in code reviews, automated unit testing using JUnit and managed minor enhancements, fixes as part of L3 support.</li>
+            </ul>
+        </div>
+
+        <div class="section-title">Key Skills</div>
+        <div class="skills-container">
+            <div class="skill-group"><span class="skill-label">Leadership:</span> Team Building, Performance Management, Stakeholder Communication, Agile/Scrum, Mentorship, Capacity Planning</div>
+            <div class="skill-group"><span class="skill-label">Languages:</span> Python, Java, JavaScript, HTML, CSS, SQL (Oracle, MySQL, PostgreSQL, DB2), No-SQL (MongoDB, Couchbase, Neo4j)</div>
+            <div class="skill-group"><span class="skill-label">Cloud Platforms:</span> Google Cloud Platform</div>
+            <div class="skill-group"><span class="skill-label">Frameworks & Library:</span> Spring Core, Spring MVC, Spring Reactive, Spring Boot, Spring Security, Log4j, Logback, Hibernate, Bootstrap, React.js, Angular JS, React Redux</div>
+            <div class="skill-group"><span class="skill-label">Messaging Queues & Libraries:</span> Apache Kafka, Rabbit MQ, Google Pub/Sub</div>
+            <div class="skill-group"><span class="skill-label">Developer and API Tools:</span> Git, GitHub, GitOps, Prometheus, Grafana, ArgoCD, Jenkins, Spinnaker, Docker, Kubernetes, Postman, Swagger, Jira, IntelliJ IDEA</div>
+            <div class="skill-group"><span class="skill-label">Gen AI:</span> Claude Code terminal, Claude skills, Github Copilot, Open Code, Frontier LLM Models, MCP, RAG, LangChain, LangGraph, Agentic AI, AI Coding agents - Cline, Cursor, Replit</div>
+            <div class="skill-group"><span class="skill-label">Others:</span> Apache Spark, Hadoop, Design Patterns, Rest API standards, Agile, Object Oriented Design, Microservices patterns, Event driven architecture, CI / CD, Problem solving, Maven, Gradle, Data Structures and Algorithms</div>
+        </div>
+
+        <div class="section-title">Education</div>
+        <div class="edu-entry">
+            <div class="edu-header">
+                <span>PES Institute of Technology, VTU</span>
+                <span>May 2005 - Aug 2008</span>
+            </div>
+            <div class="job-subheader">
+                <span>Bachelor of Engineering in Computer Science</span>
+                <span>Bengaluru, India</span>
+            </div>
+        </div>
+
+        <div class="section-title">Projects</div>
+        <div class="project-item"><span class="project-name">Registered Program Management:</span> Application that enables financial institutions to create RPINs, Billing and Spend rules.</div>
+        <div class="project-item"><span class="project-name">Dynamic Forms Automation:</span> Application that enables financial institutions to enable online forms in real time.</div>
+        <div class="project-item"><span class="project-name">Purchase Rewards:</span> Reward program tool management for every purchase made by the financial institutions users.</div>
+        <div class="project-item"><span class="project-name">Centralized Promo Management, Rule Engine:</span> Unified rule engine to apply stacking rules across multiple channels.</div>
+        <div class="project-item"><span class="project-name">Rotational Space Management:</span> Efficient flexible space management within each stores to improve sales.</div>
+        <div class="project-item"><span class="project-name">Order Management System:</span> Enables retailers to manage all orders captured across multiple channels.</div>
+        <div class="project-item"><span class="project-name">Customer Relationship Management:</span> Helped POS systems to capture more details about customer to improve sales.</div>
+
+        <div class="section-title">Recognitions</div>
+        <div class="recognition-item"><span class="recognition-name">High Five Award (2022-2023):</span> Candescent FKA NCR Corporation, Bengaluru</div>
+        <div class="recognition-item"><span class="recognition-name">Cheers Award (2021-2022):</span> Candescent FKA NCR Corporation, Bengaluru</div>
+        <div class="recognition-item"><span class="recognition-name">Thank You Award (2018-2019):</span> Lowe's India</div>
+        <div class="recognition-item"><span class="recognition-name">Lowe's Champion Award (2017-2018):</span> Lowe's India</div>
+        <div class="recognition-item"><span class="recognition-name">Bragging Rights Award (2016-2017):</span> Lowe's India</div>
+        <div class="recognition-item"><span class="recognition-name">GEM Award (2009-2010):</span> Cognizant Technology Solutions</div>
+
+        <div class="section-title">Courses</div>
+        <div class="course-item"><span class="course-name">Software Architecture: Patterns for Developers</span> (03/2025) - LinkedIn Learning</div>
+        <div class="course-item"><span class="course-name">Software Architecture: Domain-Driven Design</span> (03/2025) - LinkedIn Learning</div>
+        <div class="course-item"><span class="course-name">Apache Kafka Essential Training: Getting Started</span> (03/2025) - LinkedIn Learning</div>
+        <div class="course-item"><span class="course-name">Architecting with Google Kubernetes Engine: Foundations</span> (10/2019) - Coursera</div>
+        <div class="course-item"><span class="course-name">Google Cloud Platform Introduction Course</span> (07/2019) - Coursera</div>
+    </main>
+
+</body>
+</html>
+Gopala_Krishna_Resume.html
+Displaying Gopala_Krishna_Resume.html.
